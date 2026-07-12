@@ -1,6 +1,5 @@
-package com.hei.school.model;
+package com.hei.school.endpoint.event.model;
 
-import com.hei.school.endpoint.event.model.PojaEvent;
 import java.time.Duration;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
