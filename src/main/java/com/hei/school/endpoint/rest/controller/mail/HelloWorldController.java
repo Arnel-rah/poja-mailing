@@ -1,7 +1,7 @@
 package com.hei.school.endpoint.rest.controller.mail;
 
 import com.hei.school.endpoint.event.EventProducer;
-import com.hei.school.model.SendEmailRequested;
+import com.hei.school.endpoint.event.model.SendEmailRequested;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
