@@ -1,4 +1,4 @@
-package com.hei.school.service;
+package com.hei.school.service.event;
 
 import com.hei.school.endpoint.event.model.SendEmailRequested;
 import com.hei.school.mail.Email;
