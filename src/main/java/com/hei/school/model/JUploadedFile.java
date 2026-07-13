@@ -21,8 +21,14 @@ public class JUploadedFile {
   @Column(nullable = false)
   private String fileName;
 
-  @Column(nullable = false, unique = true)
+  @Column(nullable = false)
   private String email;
+
+  @Enumerated(EnumType.STRING)
+  @Column(nullable = false)
+  private UploadStatus status = UploadStatus.PENDING;
+
+  private String bwFileUrl;
 
   @CreationTimestamp
   @Column(updatable = false)
